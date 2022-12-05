@@ -12,6 +12,7 @@ public class Player : MonoBehaviour, ICharacterMover1
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
+
     }
     // Update is called once per frame
     void Update()

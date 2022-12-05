@@ -18,6 +18,7 @@ public class TrapBehaviour : MonoBehaviour
         trap.HandleCharacterEntered(characterMover, trapType);
     }
 }
+
 public class Trap
 {
     public void HandleCharacterEntered(ICharacterMover1 player, TrapType trapType)
@@ -38,7 +39,5 @@ public class Trap
         }
 
     }
-
 }
-
 public enum TrapType { Player, Npc }
